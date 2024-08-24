@@ -26,3 +26,4 @@
 const uint8Array = new Uint8Array([72, 101, 108, 108, 111]);
 const base64Encoded = Buffer.from(uint8Array).toString("base64");
 console.log(base64Encoded);
+// base64 encoding has characters in multiples of 4, So "=" is used in the end to make it a multiple of 4
